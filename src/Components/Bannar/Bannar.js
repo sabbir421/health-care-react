@@ -47,7 +47,7 @@ const Bannar = () => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-          <h1 className='d-flex justify-content-center text-warning my-3'>Services</h1>
+         
         </div>
     );
 };
