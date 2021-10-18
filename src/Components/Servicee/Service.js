@@ -1,14 +1,15 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 const Service = ({service}) => {
    
-    const{name,img,deccription}=service;
+    const{name,img,deccription,id}=service;
     
     return (
         
-        <div>
+        <div >
 
     <Col>
       <Card>
@@ -16,7 +17,9 @@ const Service = ({service}) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
             <p>{deccription}</p>
-            <button className='btn btn-primary'> Read More</button>
+            <Link to={`/details/${id}`}>
+                <button className="btn btn-warning">Book {name.toLowerCase()}</button>
+            </Link>
         </Card.Body>
       </Card>
     </Col>

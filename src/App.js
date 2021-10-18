@@ -5,7 +5,10 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/log-in/Login';
-import Services from './Components/Services/Services';
+import PrivetRout from './Components/PrivetRout/PrivetRout';
+import ServiceDetails from './Components/Service-Details/ServiceDetails';
+
+
 import AuthProvider from './Contexts/Context';
 
 function App() {
@@ -21,9 +24,9 @@ function App() {
           <Route path='/home'>
             <Home></Home>
           </Route>
-          <Route exact path='/services'>
-            <Services></Services>
-          </Route>
+          <PrivetRout path='/details/:id'>
+            <ServiceDetails></ServiceDetails>
+          </PrivetRout>
           <Route  path='/login'>
             <Login></Login>
           </Route>

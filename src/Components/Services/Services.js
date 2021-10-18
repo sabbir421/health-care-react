@@ -12,8 +12,8 @@ const Services = () => {
     },[]);
     return (
       
-        <div >
-             <h1 id='services' className='d-flex justify-content-center text-primary my-3'>Services</h1>
+        <div id='services'>
+             <h1  className='d-flex justify-content-center text-primary my-3'>Services</h1>
         <Row xs={1} md={2} className="g-4">  
 
      {
