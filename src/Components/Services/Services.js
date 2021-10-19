@@ -18,10 +18,12 @@ const Services = () => {
 
      {
         services.map(service=> <Service service={service}></Service>)
-    }
-
+    },
+   
+  
   
 </Row>
+
         </div>
     );
 };

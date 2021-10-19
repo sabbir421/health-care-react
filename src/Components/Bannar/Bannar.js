@@ -42,8 +42,8 @@ const Bannar = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>SAS Hospitol ltd.</h3>
+      <p>SAS Hospital is a Privet organization in Bangladesh</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

@@ -12,13 +12,13 @@ const Service = ({service}) => {
         <div >
 
     <Col>
-      <Card>
+      <Card className='container border-0'>
         <Card.Img variant="top" src={img} height='250px' />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
             <p>{deccription}</p>
             <Link to={`/details/${id}`}>
-                <button className="btn btn-warning">Book {name.toLowerCase()}</button>
+                <button className="btn btn-warning">{name.toLowerCase()}</button>
             </Link>
         </Card.Body>
       </Card>
